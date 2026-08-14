@@ -1,0 +1,19 @@
+services:
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: taskmanager-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+    container_name: taskmanager-backend
+    expose:
+      - "5000"
+    restart: unless-stopped

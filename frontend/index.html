@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header class="hero">
+            <div class="tag">DEVOPS PRACTICE PROJECT</div>
+            <h1>Task Manager</h1>
+            <p>Frontend + Backend · Docker · CI/CD</p>
+        </header>
+
+        <section class="card">
+            <form id="task-form">
+                <input
+                    id="task-input"
+                    type="text"
+                    placeholder="What do you need to do?"
+                    autocomplete="off"
+                    required
+                >
+                <button type="submit">Add Task</button>
+            </form>
+
+            <div class="status" id="status">All Good!</div>
+
+            <div id="task-list"></div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
