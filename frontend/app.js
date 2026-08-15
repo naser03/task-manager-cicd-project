@@ -4,10 +4,10 @@ const taskList = document.getElementById("task-list");
 const statusText = document.getElementById("status");
 const API_BASE_URL = "http://localhost:5000";
 
-const API_BASE_URL =
-    window.location.port === "5500"
-        ? "http://localhost:5000"
-        : "";
+// const API_BASE_URL =
+//     window.location.port === "5500"
+//         ? "http://localhost:5000"
+//         : "";
 
 async function api(path, options = {}) {
     const response = await fetch(`${API_BASE_URL}${path}`, {
