@@ -1,20 +1,15 @@
 services:
-
   frontend:
-    # image: naser03/cicddevopsproject-frontend:latest
-    build: 
-      context: ./frontend
+    image: naser03/cicddevopsproject-frontend:latest
     container_name: taskmanager-frontend
     ports:
-      - "8080:80"
+      - "80:80"
     depends_on:
       - backend
     restart: unless-stopped
 
   backend:
-    # image: naser03/cicddevopsproject-backend:latest
-    build: 
-      context: ./backend
+    image: naser03/cicddevopsproject-backend:latest
     container_name: taskmanager-backend
     expose:
       - "5000"

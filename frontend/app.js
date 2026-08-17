@@ -2,7 +2,7 @@ const form = document.getElementById("task-form");
 const input = document.getElementById("task-input");
 const taskList = document.getElementById("task-list");
 const statusText = document.getElementById("status");
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = "";
 
 // const API_BASE_URL =
 //     window.location.port === "5500"
