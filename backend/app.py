@@ -5,8 +5,8 @@ app = Flask(__name__)
 CORS(app)
 
 tasks = [
-    {"id": 1, "title": "Learn Git", "completed": False},
-    {"id": 2, "title": "Build Docker image", "completed": False},
+    {"id": 1, "title": "Write Code", "completed": False},
+    {"id": 2, "title": "Push It To Github", "completed": False},
 ]
 
 
