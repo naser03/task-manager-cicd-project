@@ -6,8 +6,8 @@ The project focuses on containerization, Docker networking, reverse proxy config
 
 ## 🏗️ Architecture
 
-![alt text](image-1.png)
+<img src="./image-1.png" alt="Task Manager CI/CD Architecture" width="600">
 
-## Complete Deployment Flow
+## 🔄 Complete Deployment Flow
 
-![alt text](image.png)
+<img src="./image.png" alt="Complete CI/CD Deployment Flow" width="600">
